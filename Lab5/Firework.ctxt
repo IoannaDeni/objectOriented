@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=point\ color\ radius\ canvas
+comment0.target=Firework(objectdraw.Location,\ java.awt.Color,\ int,\ objectdraw.DrawingCanvas)
+comment0.text=\r\n\ Creates\ and\ displays\ a\ firework\r\n\ @param\ point\ the\ center\ of\ the\ firework\r\n\ @param\ color\ the\ color\ the\ firework\ should\ be\r\n\ @param\ radius\ the\ size\ of\ the\ firework\r\n\ @param\ canvas\ the\ canvas\ to\ draw\ on\r\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ Draw\ a\ firework\ that\ grows\ over\ time.\r\n
+comment2.params=rayLength
+comment2.target=void\ draw(int)
+comment2.text=\r\n\ Draw\ the\ firework\ at\ a\ fixed\ size.\r\n\ @param\ rayLength\ the\ radius\ for\ this\ drawing.\r\n
+numComments=3

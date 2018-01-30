@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment0.text=\r\n\ From\ the\ beginning\ of\ the\ program\ a\ grass\ area,\ a\ sky\ area,\ a\ house\ and\ a\ circle\ that\ is\ the\ moon\ appears\r\n
+comment1.params=point
+comment1.target=void\ onMouseClick(objectdraw.Location)
+comment1.text=\r\n\ On\ each\ mouse\ click\ creates\ a\ sun\ bright\ red\ located\ behind\ the\ grass\ and\ the\ moon\ sets\r\n\ @param\ point\ where\ the\ user\ clicked.\r\n
+comment2.params=point
+comment2.target=void\ onMouseExit(objectdraw.Location)
+comment2.text=\r\n\ This\ is\ for\ when\ the\ mouse\ exits\ the\ window\ and\ the\ drawings\ are\ set\ to\ their\ original\ state\ \r\n
+numComments=3

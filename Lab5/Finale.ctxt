@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=brightColorGen\ darkColorGen\ sizeGen\ canvas
+comment0.target=Finale(objectdraw.RandomIntGenerator,\ objectdraw.RandomIntGenerator,\ objectdraw.RandomIntGenerator,\ objectdraw.DrawingCanvas)
+comment0.text=\r\n\ Create\ the\ finale\ and\ start\ it\ shooting\ fireworks\r\n\ @param\ brightColorGen\ used\ to\ generate\ a\ bright\ value\ when\ creating\ a\ color\r\n\ @param\ darkColorGen\ used\ to\ generate\ a\ dark\ value\ when\ creating\ a\ color\r\n\ @param\ sizeGen\ used\ to\ generate\ the\ size\ of\ the\ next\ firework\r\n\ @param\ canvas\ the\ canvas\ to\ draw\ on\r\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ Shoot\ multiple\ fireworks\ with\ a\ time\ delay\ between\ each\r\n
+numComments=2

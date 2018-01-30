@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=top\ windowWidth\ canvas
+comment0.target=HighRise(int,\ int,\ objectdraw.DrawingCanvas)
+comment0.text=\r\n\ Constructor\ for\ the\ bulding\ with\ the\ windows,\ Creates\ a\ rectangle\ with\ specified\ height\ and\ width\ \r\n\ colored\ gray\ at\ teh\ canvas.\ \r\n\ \r\n\ @param\ int\ coordinates\ of\ where\ is\ the\ ground\ and\ how\ big\ is\ the\ width\ of\ the\ window\ because\ the\ location\ of\ the\ x-coordinate\ is\ randomized\ \ \ \r\n\ @param\ a\ canvas\r\n
+comment1.params=
+comment1.target=void\ turnOn()
+comment1.text=\r\n\ This\ method\ goes\ over\ all\ windows\ and\ turns\ the\ lights\ on.\r\n
+comment2.params=point
+comment2.target=boolean\ contain(objectdraw.Location)
+comment2.text=\r\n\ This\ method\ determines\ if\ the\ user\ clicked\ on\ a\ building\ or\ not\r\n
+comment3.params=
+comment3.target=void\ turnOff()
+comment3.text=\r\n\ This\ method\ goes\ over\ all\ windows\ and\ turns\ the\ lights\ off.\r\n
+comment4.params=point
+comment4.target=void\ lightSwitch(objectdraw.Location)
+comment4.text=\r\n\ This\ method\ checks\ all\ windows\ on\ the\ array\ of\ this\ class\ and\ swicths\ the\ lights\ from\ yellow\ o\ black\ or\ the\ other\ way\ around\r\n
+numComments=5

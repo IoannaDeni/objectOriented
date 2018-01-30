@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Concentration
+comment0.text=\r\n\ This\ class\ is\ responsibe\ for\ defining\ the\ begin\ method\ which\ builds\ a\ 6x6\ grid\ filled\ with\ cards\ \r\n\ and\ the\ handles\ the\ events\ of\ the\ mouse\ so\ if\ the\ mouse\ hits\ the\ button\ for\ new\ game\ or\ the\ cheat\ buton\ \r\n\ here\ is\ the\ code\ that\ defines\ what\ happens.\ For\ the\ first\ a\ new\ set\ of\ cards\ appears\ at\ the\ same\ position\ but\ shuffled\ and\ the\ cheat\ button\ reveals\ you\ deck\ of\ cards\ symbols.\r\n\ Further\ in\ every\ first\ and\ second\ mouse\ click\ on\ top\ of\ any\ card\ causes\ the\ cards\ to\ turn\ face\ up\ to\ reveal\ the\ character\ in\ every\ third\ mouse\ click\ anywhere\ on\ the\ board\ \r\n\ the\ two\ characters\ are\ compaired\ and\ if\ they\ are\ the\ same\ they\ are\ deleted\ from\ the\ deck\ and\ removed\ from\ the\ array\ else\ they\ turn\ back\ face\ down.\ \r\n\ \r\n\ @author\ Ioanna\ Deni\r\n\ @version\ 4/25/2017\r\n
+comment1.params=
+comment1.target=void\ begin()
+comment1.text=\r\n\ From\ the\ beginning\ of\ the\ program\ a\ window\ will\ appear\ with\ the\ 36\ cards\ \r\n\ all\ reversed\ and\ not\ revealling\ the\ letters\ and\ buttons\ available\r\n
+comment2.params=width\ height
+comment2.target=void\ resizeCanvas(double,\ double)
+comment2.text=\r\n\ Changes\ the\ size\ of\ the\ canvas.\r\n\ @param\ width\ the\ desired\ width\r\n\ @param\ height\ the\ desired\ height\r\n
+comment3.params=point
+comment3.target=void\ onMouseClick(objectdraw.Location)
+comment3.text=\r\n\ This\ method\ should\ determine\ which,\ if\ any,\ card\ has\ been\r\n\ clicked\ on.\ If\ the\ user\ clicks\ on\ a\ facedown\ card\ and\ there\ are\ currently\ 0\ or\ 1\ faceup\r\n\ cards,\ the\ card\ is\ turned\ faceup.\ If\ the\ user\ clicks\ anywhere\ with\ 2\ faceup\ cards,\r\n\ if\ the\ cards\ have\ the\ same\ symbol,\ they\ are\ both\ removed\ from\ the\ display.\ If\ the\ 2\r\n\ faceup\ cards\ have\ different\ symbols,\ they\ are\ both\ turned\ facedown.\ \r\n\ @param\ \ Location\ point\ \r\n
+comment4.params=event
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\r\n\ This\ method\ handles\ clicks\ on\ the\ buttons.\ When\ the\ user\r\n\ clicks\ on\ the\ Cheat\ button,\ the\ cards\ should\ all\ be\ turned\ faceup.\ The\ New\ Game\r\n\ button\ is\ extra\ credit.\ If\ the\ user\ clicks\ on\ it,\ it\ should\ begin\ a\ new\ game\ with\ a\ full\r\n\ grid\ of\ facedown\ cards.\ It\ should\ be\ possible\ to\ click\ this\ button\ at\ any\ time.\ \r\n\ @param\ event\ information\ about\ the\ user\ action\ being\ handled\r\n
+numComments=5

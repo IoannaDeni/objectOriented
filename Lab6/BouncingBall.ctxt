@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=ballLeft\ ballTop\ canvas\ boundary\ x\ y
+comment0.target=BouncingBall(double,\ double,\ objectdraw.DrawingCanvas,\ objectdraw.FramedRect,\ double,\ double)
+comment0.text=\r\n\ Create\ a\ ball\ that\ bounces\ when\ it\ hits\ a\ walls.\r\n\ @param\ ballLeft\ left\ side\ of\ the\ ball\r\n\ @param\ ballTop\ top\ of\ the\ ball\r\n\ @param\ canvas\ portion\ of\ screen\ to\ draw\ on\r\n\ @param\ boundary\ rectangular\ area\ of\ the\ screen\ the\ ball\ stays\ within\r\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ Cause\ the\ ball\ to\ move\ around\ the\ playing\ area\ at\ a\ specified\ (initial\ speed)\ speed.\ The\ ball\ \r\n\ bounces\ off\ the\ walls\ of\ the\ boundary.\r\n
+comment2.params=color
+comment2.target=void\ color(java.awt.Color)
+comment2.text=\r\n\ Cause\ the\ ball\ to\ change\ color.\r\n
+comment3.params=
+comment3.target=void\ remove()
+comment3.text=\r\n\ Cause\ the\ ball\ to\ be\ removed\ from\ the\ canvas\ that\ was\ saved\ both\ in\ the\ constructor\ and\ the\ WindowController.\r\n
+comment4.params=
+comment4.target=double\ getX()
+comment4.text=\r\n\ This\ method\ returns\ the\ X\ coordinates\ of\ the\ ball\ at\ any\ given\ time.\r\n
+comment5.params=
+comment5.target=double\ getY()
+comment5.text=\r\n\ This\ method\ returns\ the\ y\ coordinates\ of\ the\ ball\ at\ any\ given\ time.\r\n
+numComments=6

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=left\ top\ canvas
+comment0.target=Caterpillar(double,\ double,\ objectdraw.DrawingCanvas)
+comment0.text=\r\n\ Constructor\ for\ the\ caterpillar\ that\ draws\ all\ the\ parts\ of\ a\ caterpillar\r\n\ as\ a\ whole.\ The\ parameters\ are\ the\ location\ of\ the\ mouse\ LEFT\ and\ TOP\ \r\n\ where\ the\ caterpillar\ is\ drawn\r\n
+comment1.params=point
+comment1.target=boolean\ contains(objectdraw.Location)
+comment1.text=\r\n\ Here\ we\ define\ a\ method\ that\ containes\ what\ happens\ when\ the\ user\ clicks\ inside\ the\ area\ defined\ as\ caterpillar\r\n\ @param\ point\ the\ location\ of\ the\ mouse\ (x\ and\ y\ coordinates)to\ check\ if\ they\ are\ inside\ the\ circles\ \ \r\n
+comment2.params=dx\ dy
+comment2.target=void\ move(double,\ double)
+comment2.text=\r\n\ Here\ we\ define\ a\ method\ that\ containes\ what\ happens\ when\ the\ method\ move\ is\ called\ for\ the\ caterpillar\r\n\ @param\ dx\ the\ distance\ to\ move\ right\r\n\ @param\ dy\ the\ distance\ to\ move\ down\ \r\n
+comment3.params=
+comment3.target=double\ getX()
+comment3.text=\r\n\ Here\ we\ define\ a\ method\ that\ containes\ what\ happens\ when\ the\ method\ getX\ is\ called\ for\ the\ caterpillar\r\n\ @param\ none\r\n
+comment4.params=
+comment4.target=double\ getLastX()
+comment4.text=\r\n\ Here\ we\ define\ a\ method\ that\ containes\ what\ happens\ when\ the\ method\ getLastX\ is\ called\ for\ the\ caterpillar\r\n\ @param\ none\r\n
+comment5.params=
+comment5.target=double\ getY()
+comment5.text=\r\n\ Here\ we\ define\ a\ method\ that\ containes\ what\ happens\ when\ the\ method\ getY\ is\ called\ for\ the\ caterpillar\r\n\ @param\ none\r\n
+comment6.params=
+comment6.target=double\ getLastY()
+comment6.text=\r\n\ Here\ we\ define\ a\ method\ that\ containes\ what\ happens\ when\ the\ method\ getLastY\ is\ called\ for\ the\ caterpillar\r\n\ @param\ none\r\n
+numComments=7

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment0.text=\r\n\ From\ the\ beginning\ of\ the\ program\ a\ window\ will\ appear\ with\ the\ pictures\ and\ the\ racing\ lines\r\n
+comment1.params=width\ height
+comment1.target=void\ resizeCanvas(double,\ double)
+comment1.text=\r\n\ Changes\ the\ size\ of\ the\ canvas.\r\n\ @param\ width\ the\ desired\ width\r\n\ @param\ height\ the\ desired\ height\r\n
+comment2.params=point
+comment2.target=void\ onMouseClick(objectdraw.Location)
+comment2.text=\r\n\ On\ one\ mouse\ click\ create\ the\ mascots\ and\ start\ the\ race\r\n\ After\ that\ mouse\ clicks\ do\ nothing.\r\n\ @param\ point\ where\ the\ user\ clicked.\r\n
+numComments=3

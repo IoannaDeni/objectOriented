@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment0.text=\r\n\ From\ the\ beginning\ of\ the\ program\ a\ window\ will\ appear\ with\ the\ sky\ and\ the\ ground\ and\ the\ available\ buttons\ \r\n
+comment1.params=point
+comment1.target=void\ onMouseClick(objectdraw.Location)
+comment1.text=\r\n\ This\ method\ should\ determine\ which,\ if\ any,\ window\ has\ been\r\n\ clicked\ on.\ If\ the\ user\ clicks\ on\ a\ turned\ off\ light\ window\ the\ window\ becomes\ yellow\ else\ if\ the\ user\ clicks\ on\ a\ turned\ on\ light\ window\ the\ window\ becomes\ black\ \r\n\ @param\ \ Location\ point\ \r\n
+comment2.params=event
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=\r\n\ This\ method\ handles\ the\ events\ that\ occur\ when\ the\ user\ clicks\ on\ one\ ofthe\ three\ buttons.\r\n\ @param\ event\ information\ about\ the\ user\ action\ being\ handled\r\n
+comment3.params=width\ height
+comment3.target=void\ resizeCanvas(double,\ double)
+comment3.text=\r\n\ Changes\ the\ size\ of\ the\ canvas.\r\n\ @param\ width\ the\ desired\ width\r\n\ @param\ height\ the\ desired\ height\r\n
+numComments=4

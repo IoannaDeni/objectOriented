@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=point
+comment0.target=void\ onMouseClick(objectdraw.Location)
+comment0.text=\r\n\ This\ metod\ allows\ the\ formation\ of\ a\ new\ caterpillar\ in\ each\ click\ of\ the\ user\ and\ where\ the\ user\ clicks.\r\n\ @param\ point\ where\ the\ user\ clicked.\r\n
+comment1.params=point
+comment1.target=void\ onMousePress(objectdraw.Location)
+comment1.text=\r\n\ If\ the\ user\ presses\ the\ mouse\ button\ over\ the\ area\ of\ the\ caterpillar\ then\ it\ can\ be\ moved\ around\ as\ a\ whole\ \r\n\ @param\ point\ where\ the\ user\ pressed\ the\ mouse\ button\ down\r\n
+comment2.params=point
+comment2.target=void\ onMouseDrag(objectdraw.Location)
+comment2.text=\r\n\ This\ is\ to\ drag\ the\ caterpillar\ if\ it\ is\ grabbed\ and\ moved\ it\ as\ the\ mouse\ moves\r\n\ @param\ point\ where\ the\ mouse\ is\ at\ the\ end\ of\ the\ drag\r\n
+comment3.params=point
+comment3.target=void\ onMouseRelease(objectdraw.Location)
+comment3.text=\r\n\ End\ the\ drag\r\n\ @param\ point\ where\ the\ mouse\ is\ when\ the\ button\ is\ released\r\n
+numComments=4

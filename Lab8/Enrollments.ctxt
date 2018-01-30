@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ This\ is\ instead\ of\ a\ begin\ method\ so\ for\ the\ program\ to\ print\ the\ statistical\ data\ \n\ we\ will\ have\ to\ call\ this\ method.\n
+comment1.params=theCourse\ theSemester
+comment1.target=void\ report(int,\ int)
+comment1.text=\n\ This\ should\ take\ 2\ parameters,\ a\ course\ index\ and\ a\ semester\ index\n\ and\ will\ look\ up\ the\ enrollment\ for\ a\ single\ offering\ of\ a\ particular\ course.\ \n
+comment2.params=
+comment2.target=void\ calculateTotal()
+comment2.text=\n\ Total\ of\ all\ courses\ over\ all\ semesters\ \n
+comment3.params=theCourse
+comment3.target=void\ calculateCourseTotal(int)
+comment3.text=\n\ This\ method\ gives\ the\ total\ enrolment\ of\ one\ course\ over\ all\ semesters.\ This\ method\n\ \ should\ take\ a\ course\ index\ (a\ number\ between\ 0\ and\ 5).\ \n
+comment4.params=theSemester
+comment4.target=void\ calculateSemesterTotal(int)
+comment4.text=\n\ This\ method\ gives\ the\ total\ of\ all\ courses\ over\ one\ semester.\ This\ method\ \n\ should\ take\ a\ semester\ index\ (a\ number\ between\ 0\ and\ 7).\ \n
+numComments=5

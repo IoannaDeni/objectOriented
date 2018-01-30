@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ControllerBall()
+comment0.text=\r\n\ Create\ the\ display.\ \ The\ Swing\ components\ are\ arranged\ around\ objectdraw's\ canvas.\r\n
+comment1.params=event
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ Handle\ events\ caused\ by\ the\ user\ clicking\ the\ button,\ or\ selecting\ a\ color\ using\ the\ menu.\ \r\n\ @param\ event\ information\ about\ the\ user\ action\ being\ handled\r\n
+comment2.params=event
+comment2.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+comment2.text=\r\n\ When\ the\ user\ moves\ the\ slider,\ the\ speed\ on\ the\ x\ and\ y\ axis\ of\ the\ ball\ change.\ \r\n\ @param\ event\ Information\ about\ the\ user's\ interaction\ with\ the\ slider.\r\n
+numComments=3

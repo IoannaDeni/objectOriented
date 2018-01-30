@@ -1,0 +1,129 @@
+import java.awt.*;
+import objectdraw.*;
+
+/**
+ * (The HighRise2 class manages the entire collection of windows after drawing a building with 8 of them.) 
+ * (This class keeps the entire collection of windows in an array for every uilding.)
+ * 
+ * @author Ioanna Deni
+ * @version 5/1/2017
+ */
+public class HighRise2
+{
+
+    //This variables hold the sized of the buildings 
+    private static final int BUILDING_HEIGHT = 200;
+    private static final int BUILDING_WIDTH = 100;
+
+    // The color for the building 
+    private static final Color COLOR = Color.GRAY;
+
+    //These variables hold the maximun number of buuildings available for the user the maximun number of windows in each building and finally the total of all windows in all buildings 
+    private static final int MAX_BUILDINGS = 5;
+    private static final int WINDOW_BUILDING = 8;
+    private static final int MAX_WINDOWS = MAX_BUILDINGS * WINDOW_BUILDING;
+
+    // Array to hold all the windows
+    private Window[] windows = new Window[MAX_WINDOWS];;
+
+    private int numWindow = 0;
+
+    //This variables hold the sized of the window for all the buildings  
+    private static final int WINDOW_SIZE = 20;
+
+    //This variables hold the space from the walls across the width of the building relative to the window size
+    private static final int MARGIN_WIDTH = (BUILDING_WIDTH - 2*WINDOW_SIZE)/3;
+
+    //This variables hold the space from the walls across the width of the building relative to the window size
+    private static final int MARGIN_HEIGHT = (BUILDING_HEIGHT - 4*WINDOW_SIZE)/5;
+
+    public HighRise2 (int top, int windowWidth, DrawingCanvas canvas)
+    {
+
+        // This is for random positioning of the building number restriction between 0 to WINDOW_WIDTH - 100 which is as wide as a building so the building isn't outside our window
+        RandomIntGenerator left = new RandomIntGenerator (0, windowWidth - BUILDING_WIDTH);
+
+        // Here the actual value is generated
+        int valueLeft = left.nextValue();
+
+        //This objectDraw constractor will make a building like rectangle in a random left position but in a specified y-position so it is above the ground
+        FilledRect building = new FilledRect (valueLeft, top - BUILDING_HEIGHT, BUILDING_WIDTH, BUILDING_HEIGHT, canvas);
+
+        //This is the outlined frame rectangle that holds the exact coordinates of the building
+        FramedRect aroundBuild = new FramedRect (valueLeft, top - BUILDING_HEIGHT, BUILDING_WIDTH, BUILDING_HEIGHT, canvas);
+
+        //Set the color of the building to its color
+        building.setColor(COLOR);
+
+        //Here the windows are placed in two columns and four rows 
+        for (int numXWindow = 0; numXWindow < WINDOW_BUILDING/4; numXWindow ++)
+        {
+            //The one loop goes throught the x columns of the windows on the building
+            //While the next loop goes throught the y rows of the windows on the building
+
+            for (int numYWindow = 0; numYWindow < WINDOW_BUILDING/2; numYWindow ++) 
+            {
+
+                //After defining the number coordinates for eact window in each building we are building the window based on the pre-defined margins and building size
+                Window window = new Window (numXWindow*(WINDOW_SIZE + MARGIN_WIDTH) + MARGIN_WIDTH + valueLeft, numYWindow*(WINDOW_SIZE + MARGIN_HEIGHT) + MARGIN_HEIGHT + top - BUILDING_HEIGHT, WINDOW_SIZE, canvas);
+
+                //After we have created we are adding it to the collection so we can use it later
+                if (numWindow < windows.length) {
+                    //For as long as the window number is smaller than the actual defined lenght of the array the position which is empty fill it with a window 
+
+                    //The window that fills the position is represented by an index which is happening with order so first window is window[1] 
+                    windows[numWindow] = window;
+
+                    //Now we add the new  window to the array of windows
+                    numWindow++;
+                }
+            }
+        }
+    }
+
+    /**
+     * This method goes over all windows and turns them on.
+     */
+    public void turnOn () {
+        //First all the indexes as checked
+
+        for (int i = 0; i < numWindow; i++) {
+
+            //For every single index of all windows made the turnOn method is and turns them on
+            windows[i].turnON();
+        }
+    }
+
+    /**
+     * This method finds a window at a particular location
+     */
+    public Window getWindowAt (Location point) {
+
+        //First all the indexes as checked
+        for (int i = 0; i < numWindow; i++) {
+
+            //first every single index the windows collection contains is checked and the specific one that contains that point is returned
+            if (windows[i].contains (point)) {
+
+                //The index of the specific window that contains that point is returned
+                return windows[i];
+            }
+        }
+
+        //If the user clicked outside all windows then null is returned and nothing happens
+        return null;
+    }
+
+    /**
+     * This method goes over all windows and turns them off.
+     */
+    public void turnOff () {
+        //First all the indexes as checked
+
+        for (int i = 0; i < numWindow; i++) {
+
+            //For every single index of all windows made the turnOn method is and turns them on
+            windows[i].turnOFF();
+        }
+    }
+}

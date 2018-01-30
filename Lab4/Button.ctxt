@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=left\ top\ label\ canvas
+comment0.target=Button(double,\ double,\ java.lang.String,\ objectdraw.DrawingCanvas)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ button\ draws\ all\ the\ parts\ of\ a\ button\r\n\ as\ a\ whole.\ The\ parameters\ are\ the\ location\ the\ button,\ the\ text\ and\ the\ canvas\ \r\n
+comment1.params=
+comment1.target=double\ getRight()
+comment1.text=\r\n\ Here\ we\ define\ what\ happens\ when\ the\ method\ getRight\ is\ called\ for\ the\ button\ coordinates\r\n
+comment2.params=point
+comment2.target=boolean\ contains(objectdraw.Location)
+comment2.text=\r\n\ Here\ we\ define\ what\ happens\ when\ point\ in\ somewhere\ on\ top\ of\ the\ button\r\n\ @param\ point\ the\ location\ to\ check\ for\ containment\ \r\n
+numComments=3

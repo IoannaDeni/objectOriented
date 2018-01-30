@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=left\ top\ size\ canvas
+comment0.target=Window(double,\ double,\ int,\ objectdraw.DrawingCanvas)
+comment0.text=\r\n\ Constructor\ for\ Window\ that\ creates\ a\ rectangle\ \r\n\ colored\ black\ at\ the\ beginning\ on\ \ the\ canvas.\ \r\n\ \r\n\ @param\ double\ for\ left\ and\ top\ coordinates\ \r\n\ @param\ a\ canvas\r\n
+comment1.params=point
+comment1.target=boolean\ contains(objectdraw.Location)
+comment1.text=\r\n\ This\ method\ determines\ if\ the\ user\ clicked\ on\ a\ window\ when\ it's\ called\ \r\n
+comment2.params=
+comment2.target=java.awt.Color\ getColor()
+comment2.text=\r\n\ This\ method\ returns\ the\ color\ of\ a\ single\ window\r\n
+comment3.params=
+comment3.target=void\ turnON()
+comment3.text=\r\n\ This\ method\ should\ return\ the\ window\ in\ color\ yellow\ to\ displayed\ that\ the\ lights\ are\ on\ \r\n
+comment4.params=
+comment4.target=void\ turnOFF()
+comment4.text=\r\n\ This\ method\ should\ return\ the\ window\ in\ color\ black\ to\ displayed\ that\ the\ lights\ are\ off\ \r\n
+numComments=5

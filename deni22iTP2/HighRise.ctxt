@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=size
+comment0.target=HighRise(int)
+comment0.text=\r\n\ Constructor\ for\ HighRise\ that\ creates\ an\ array\ \r\n\r\n
+comment1.params=window\ canvas
+comment1.target=void\ addWindow(Window,\ objectdraw.DrawingCanvas)
+comment1.text=\r\n\ Create\ a\ window\ and\ put\ it\ into\ the\ right\ position\ on\ ythe\ building\ and\ add\ it\ in\ the\ array.\r\n\ Make\ sure\ there\ is\ enough\ space\ for\ all\ buildings.\r\n
+comment2.params=
+comment2.target=void\ turnOn()
+comment2.text=\r\n\ This\ method\ goes\ over\ all\ windows\ and\ turns\ them\ on.\r\n
+comment3.params=point
+comment3.target=Window\ getWindowAt(objectdraw.Location)
+comment3.text=\r\n\ This\ method\ finds\ a\ card\ at\ a\ particular\ location\r\n
+comment4.params=
+comment4.target=void\ turnOff()
+comment4.text=\r\n\ This\ method\ goes\ over\ all\ windows\ and\ turns\ them\ off.\r\n
+numComments=5
