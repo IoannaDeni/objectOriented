@@ -1,0 +1,11 @@
+Lab4
+Part 2
+@author Ioanna Deni
+@version 10/5/2017
+
+From Lab3: Recursion 
+
+View: CirclePanel (because it creates a place to display what's going on with the model, on a GUI)
+Model: DrawableTarget, DrawableBubble, DrawableSmile, DrawableCircle (the last is the super class while the first ones are the subclasses that hold data for drawing)
+Controller: CircleDisplay (because it makes changes to the model and the view, based on user input - has mouse listeners)
+Application: CircleApplication (because it has the main method that runs the program) 
