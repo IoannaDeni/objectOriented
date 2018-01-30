@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment0.text=\n\ we\ are\ using\ begin\ method\ because\ we\ are\ building\ a\ still\ image\ with\ zero\ interaction\ with\ the\ mouse.\n\ Also\ the\ image\ will\ be\ formed\ as\ soon\ as\ we\ run\ the\ program\n
+numComments=1

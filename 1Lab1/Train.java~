@@ -1,0 +1,21 @@
+import objectdraw.*;
+import java.awt.*;
+/**
+ * Write a description of class MyFirstClass here.
+ * 
+ * @author Ioanna Deni 
+ * @version Monday 31 January 2017
+ */
+public class Train extends WindowController
+{
+   public void begin()
+   {
+       new FilledRect (0, 0, 400, 400, canvas).setColor(Color.GREEN);
+       new Line (0, 380, 400, 380, canvas);
+       new FramedRect(280, 150, 50, 50, canvas);
+       new FilledRect(20, 200, 350, 120, canvas).setColor(Color.RED);
+       new FilledOval(285, 60, 40, 70, canvas).setColor(Color.LIGHT_GRAY);
+       new FilledOval(80, 319, 61, 61, canvas);
+       new FilledOval(270, 319, 61, 61, canvas);
+    }
+}
