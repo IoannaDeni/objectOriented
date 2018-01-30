@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment0.text=\r\n\ From\ the\ beginning\ of\ the\ program\ a\ grass\ area,\ a\ sky\ area\ and\ a\ balloon\ appears\ in\ a\ fixed\ location\r\n
+comment1.params=point
+comment1.target=void\ onMouseClick(objectdraw.Location)
+comment1.text=\r\n\ On\ each\ mouse\ click\ creates\ a\ new\ hot\ air\ balloon\ located\ where\ the\ user\ clicks.\r\n\ @param\ point\ where\ the\ user\ clicked.\r\n
+comment2.params=point
+comment2.target=void\ onMousePress(objectdraw.Location)
+comment2.text=\r\n\ If\ the\ user\ presses\ the\ mouse\ button\ over\ the\ area\ of\ the\ hot\ air\ balloon\ we\ can\ drag\ it\ around\r\n\ @param\ point\ where\ the\ user\ pressed\ the\ mouse\ button\ down\r\n
+comment3.params=point
+comment3.target=void\ onMouseDrag(objectdraw.Location)
+comment3.text=\r\n\ This\ is\ to\ drag\ the\ balloon\ if\ it\ is\ grabbed\ and\ moved\ it\ as\ the\ mouse\ moves\r\n\ @param\ point\ where\ the\ mouse\ is\ at\ the\ end\ of\ the\ drag\r\n
+comment4.params=point
+comment4.target=void\ onMouseRelease(objectdraw.Location)
+comment4.text=\r\n\ End\ of\ the\ drag\ in\ order\ to\ release\ the\ balloon\ the\ user\ picked\r\n\ @param\ point\ where\ the\ mouse\ is\ when\ the\ button\ is\ released\r\n
+comment5.params=point
+comment5.target=void\ onMouseExit(objectdraw.Location)
+comment5.text=\r\n\ This\ is\ for\ when\ the\ mouse\ exits\ the\ window\ and\ the\ colors\ of\ the\ sky\ the\ grass\ \r\n\ and\ the\ last\ balloon\ that\ the\ user\ clicked\ on\ become\ darker\ \r\n\ (the\ method\ for\ the\ darkening\ for\ the\ lastBallon\ doesn't\ work\ -\ don't\ know\ why)\r\n
+comment6.params=point
+comment6.target=void\ onMouseEnter(objectdraw.Location)
+comment6.text=\r\n\ This\ is\ for\ when\ the\ mouse\ enters\ the\ window\ again\ the\ colors\ of\ the\ sky\ the\ grass\ \r\n\ and\ the\ last\ balloon\ that\ the\ user\ clicked\ on\ become\ their\ initial\ color\r\n\ (the\ method\ for\ the\ lightening\ for\ the\ lastBallon\ also\ doesn't\ work\ -\ don't\ know\ why)\r\n\ (if\ I\ added\ these\ lines\ of\ code\ that\ now\ are\ in\ comments-form\ the\ program\ won't\ run)\r\n
+numComments=7

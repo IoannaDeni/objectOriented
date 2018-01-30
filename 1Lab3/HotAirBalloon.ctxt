@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=left\ top\ canvas
+comment0.target=HotAirBalloon(double,\ double,\ objectdraw.DrawingCanvas)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ HotAirBalloon\ draws\ all\ the\ parts\ of\ a\ hot\ air\ balloon\r\n\ as\ a\ whole.\ The\ parameters\ the\ location\ the\ balloon\ will\ be\ draw\ the\ LEFT\ and\ TOP\ \r\n\ and\ which\ is\ the\ canvas\ and\ in\ which\ y\ direction\ it\ will\ move\ up\ and\ down\r\n
+comment1.params=point
+comment1.target=boolean\ contains(objectdraw.Location)
+comment1.text=\r\n\ Here\ we\ define\ what\ happens\ when\ point\ in\ somewhere\ on\ top\ of\ the\ hot\ air\ balloon\r\n\ @param\ point\ the\ location\ to\ check\ for\ containment\ \r\n
+comment2.params=dy
+comment2.target=void\ move(double)
+comment2.text=\r\n\ Here\ we\ define\ what\ happens\ when\ the\ method\ move\ is\ called\ for\ the\ hot\ air\ balloon\r\n\ @param\ dx\ the\ distance\ to\ move\ right\r\n\ @param\ dy\ the\ distance\ to\ move\ down\ \r\n
+comment3.params=
+comment3.target=void\ darker()
+comment3.text=\r\n\ Here\ we\ define\ what\ happens\ when\ the\ method\ darken\ is\ called\ for\ the\ hot\ air\ balloon\r\n
+comment4.params=
+comment4.target=void\ lighter()
+comment4.text=\r\n\ Here\ we\ define\ what\ happens\ when\ the\ method\ lighten\ is\ called\ for\ the\ hot\ air\ balloon\r\n
+numComments=5

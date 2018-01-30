@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ begin()
+comment0.text=\r\n\ From\ the\ beginning\ of\ the\ program\ a\ window\ will\ appear\ with\ the\ picture\ and\ the\ buttons\r\n
+comment1.params=width\ height
+comment1.target=void\ resizeCanvas(double,\ double)
+comment1.text=\r\n\ Changes\ the\ size\ of\ the\ canvas.\r\n\ @param\ width\ the\ desired\ width\r\n\ @param\ height\ the\ desired\ height\r\n
+comment2.params=Point
+comment2.target=void\ onMouseClick(objectdraw.Location)
+comment2.text=\r\n\ On\ each\ mouse\ click\ creates\ a\ new\ hot\ air\ balloon\ located\ where\ the\ user\ clicks.\r\n\ @param\ point\ where\ the\ user\ clicked.\r\n
+comment3.params=
+comment3.target=void\ turnGray()
+comment3.text=\r\n\ Constructor\ for\ the\ method\ of\ turnGray\ that\ is\ making\ each\ picture\ gray\ \r\n\ @param\ is\ \ a\ picture\r\n
+comment4.params=
+comment4.target=void\ mirror()
+comment4.text=\r\n\ Constructor\ for\ the\ method\ of\ mirror\ that\ flips\ the\ picture\ \r\n\ @param\ is\ \ a\ picture\r\n
+comment5.params=
+comment5.target=void\ blur()
+comment5.text=\r\n\ Constructor\ for\ the\ method\ of\ blur\ that\ makes\ the\ picture\ less\ detailed\ \r\n\ @param\ is\ \ a\ picture\r\n
+numComments=6

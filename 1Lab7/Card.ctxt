@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ The\ Card\ class\ defines\ an\ individual\ card\ composed\ of\ a\ rectangle\ with\ a\ given\ collor\ and\ a\ character\ that\ \r\n\ is\ either\ shown\ on\ the\ canvas\ or\ hidden.\ This\ class\ also\ defines\ methods\ that\ show\ the\ character\ in\ a\ card\ \r\n\ or\ remove\ it\ from\ the\ canvas\ or\ hides\ the\ character\ when\ it\ \ "turns"\ so\ other\ classes\ can\ call\ these\ methods.\ \r\n\ \r\n\ @author\ Ioanna\ Deni\r\n\ @version\ 4/25/2017\r\n
+comment1.params=left\ top\ height\ width\ symbol\ canvas
+comment1.target=Card(double,\ double,\ int,\ int,\ char,\ objectdraw.DrawingCanvas)
+comment1.text=\r\n\ Constructor\ for\ Card\ that\ creates\ a\ rectangle\ \r\n\ at\ the\ left\ and\ top\ coordinates\ of\ the\ card,\ \r\n\ with\ the\ symbol\ to\ display\ on\ the\ card,\ on\ \ the\ canvas.\ \r\n\ \r\n\ @param\ double\ for\ left\ and\ top\ coordinates\ \r\n\ @param\ str\ symbol\ to\ be\ displayed\ on\ the\ card\r\n\ @param\ a\ canvas\r\n
+comment2.params=
+comment2.target=void\ showSymbol()
+comment2.text=\r\n\ This\ method\ should\ display\ the\ symbol,\ making\ it\ appear\ that\ the\ card\ is\ faceup.\ \r\n
+comment3.params=point
+comment3.target=boolean\ contains(objectdraw.Location)
+comment3.text=\r\n\ This\ method\ determines\ if\ the\ user\ clicked\ on\ a\ card\ when\ it's\ called\ on\ the\ controller\r\n
+comment4.params=
+comment4.target=char\ getSymbol()
+comment4.text=\r\n\ This\ method\ should\ return\ the\ symbol\ displayed\ on\ the\ card\ \r\n
+comment5.params=
+comment5.target=void\ hideSymbol()
+comment5.text=\r\n\ This\ method\ should\ display\ the\ symbol,\ making\ it\ appear\ that\ the\ card\ is\ faceup.\ \r\n
+comment6.params=
+comment6.target=void\ removeFromCanvas()
+comment6.text=\r\n\ This\ method\ should\ remove\ the\ card\ and\ its\ symbol\ from\ the\ canvas.\ \r\n
+numComments=7

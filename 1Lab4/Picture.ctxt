@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=filename
+comment0.target=Picture(java.lang.String)
+comment0.text=\r\n\ Load\ a\ picture\ from\ a\ file.\r\n\ @param\ filename\ the\ name\ of\ the\ file\ containing\ an\ image\ to\ load\r\n
+comment1.params=width\ height
+comment1.target=Picture(int,\ int)
+comment1.text=\r\n\ Create\ a\ blank\ picture.\r\n\ @param\ width\ the\ width\ of\ the\ blank\ picture\ in\ pixels\r\n\ @param\ height\ the\ height\ of\ the\ blank\ picture\ in\ pixels\r\n
+comment2.params=
+comment2.target=int\ getWidth()
+comment2.text=\r\n\ @return\ the\ number\ of\ columns\ of\ pixels\ in\ the\ image\r\n
+comment3.params=
+comment3.target=int\ getHeight()
+comment3.text=\r\n\ @return\ the\ number\ of\ rows\ of\ pixels\ in\ the\ image\r\n
+comment4.params=row\ col
+comment4.target=java.awt.Color\ getPixel(double,\ double)
+comment4.text=\r\n\ Get\ the\ color\ of\ a\ pixel\ at\ a\ particular\ location.\ \ This\r\n\ method\ will\ fail\ (with\ an\ ArrayIndexOutOfBoundsException)\r\n\ if\ row\ or\ col\ are\ negative\ or\ are\ beyond\ the\ bounds\ of\ the\ image.\r\n\ @param\ row\ the\ row\ of\ the\ pixel\r\n\ @param\ col\ the\ column\ of\ the\ pixel\r\n\ @return\ the\ color\ of\ the\ requested\ pixel\r\n
+comment5.params=row\ col\ color
+comment5.target=void\ setPixel(double,\ double,\ java.awt.Color)
+comment5.text=\r\n\ Change\ the\ color\ of\ a\ pixel\ at\ a\ particular\ location.\ \ This\ method\ \r\n\ does\ nothing\ if\ row\ or\ col\ are\ negative\ or\ are\ beyond\ the\ dimensions\ of\ \r\n\ the\ image.\r\n\ @param\ row\ the\ row\ of\ the\ pixel\r\n\ @param\ col\ the\ column\ of\ the\ pixel\r\n\ @param\ color\ the\ new\ color\ for\ the\ pixel\r\n
+comment6.params=left\ top\ canvas
+comment6.target=objectdraw.VisibleImage\ createVisibleImage(double,\ double,\ objectdraw.DrawingCanvas)
+comment6.text=\r\n\ Displays\ an\ image\ on\ the\ canvas.\r\n\ @param\ left\ the\ coordinate\ for\ the\ left\ edge\ of\ the\ image\r\n\ @param\ top\ the\ coordinate\ for\ the\ top\ of\ the\ image\r\n\ @param\ canvas\ the\ canvas\ to\ draw\ on\r\n\ @return\ the\ VisibleImage\ that\ was\ displayed\r\n
+numComments=7

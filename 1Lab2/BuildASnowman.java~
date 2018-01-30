@@ -1,0 +1,62 @@
+import java.awt.*;
+import objectdraw.*;
+/**
+ * Write a description of class BuildASnowman here.
+ * 
+ * @author (Ioanna Deni) 
+ * @version (Monday 6th February 2017)
+ */
+public class BuildASnowman extends WindowController
+{
+    //The distance from the left of the display for the first ball initially
+    private static final int LEFT = 10;
+    //The distance from the top of the display to the tops of the ball initially
+    private static final int TOP = 10;
+    // The diameter of the snowman’s head
+    private static final int HEAD_SIZE = 50;
+    // The ball that represents the snowman’s head
+    private FramedOval head;
+    // The diameter of the snowman’s body
+    private static final int BELLY_SIZE = 100;
+    // The ball that represents the snowman’s head
+    private FramedOval belly;
+    //The diameter of the snowman’s feet
+    private static final int FEET_SIZE = 150;
+    // The ball that represents the snowman’s head
+    private FramedOval feet;
+    // Here we create a instant variable to keep saving the exact coordinates of the mouse 
+    private Location lastPoint;
+    // In order to remember which ball was clicked on, if any we create 3 boolean instance variables foe the space of each circle 
+    private boolean headGrabbed = false;
+    private boolean bellyGrabbed = false;
+    private boolean feetGrabbed = false;
+    
+    public void begin()
+    {
+        // In the begining the display will be of three balls, the head, the body and the feet 
+        head = new FramedOval (LEFT, TOP, HEAD_SIZE, HEAD_SIZE, canvas);
+        // The distance between the center of each ball is the diameter plus left that is why we multiply LEFT by 2 and add the size
+        belly = new FramedOval (2*LEFT+HEAD_SIZE, TOP, BELLY_SIZE, BELLY_SIZE, canvas);
+        // Similarly here only now by 3 because we have all three circles - TOP remains the same 
+        feet = new FramedOval (3*LEFT+HEAD_SIZE+BELLY_SIZE, TOP, FEET_SIZE, FEET_SIZE, canvas);
+    }
+    
+    public void onMousePress(Location point)
+    {
+        if (head.contains (point))
+        {
+            headGrabbed = true;
+            lastPoint = point;
+        }
+    }
+    
+    public void onMouseDrag (Location point)
+    {
+        if (headGrabbed) {
+            double headX = point.getX() - lastPoint.getX();
+            double headY = point.getY() - lastPoint.getY();
+            head.moveTo(headX, headY);
+            lastPoint = point;
+        }
+    }
+}

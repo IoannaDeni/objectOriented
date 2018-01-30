@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=left\ top\ picture\ canvas\ offscreen
+comment0.target=Mascot(double,\ double,\ Picture,\ objectdraw.DrawingCanvas,\ int)
+comment0.text=\r\n\ Draws\ the\ mascot\ figure\ and\ gives\ it\ a\ random\ speed\r\n\ @param\ left\ for\ where\ to\ draw\ the\ figure\r\n\ @param\ top\ for\ where\ to\ draw\ the\ figure\r\n\ @param\ picture\ so\ it\ has\ a\ picture\ loaded\r\n\ @param\ canvas\ where\ to\ draw\r\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ In\ order\ for\ the\ figure\ to\ move\r\n
+comment2.params=dx
+comment2.target=void\ move(double)
+comment2.text=\r\n\ Here\ we\ define\ what\ happens\ when\ the\ method\ move\ is\ called\ for\ the\ mascot\r\n\ @param\ dx\ the\ distance\ to\ move\ right\r\n
+comment3.params=
+comment3.target=int\ winner()
+comment3.text=\r\n\ Here\ we\ define\ what\ happens\ when\ the\ method\ winner\ is\ called\ in\ the\ controller\r\n\ and\ return\ the\ int\ of\ the\ speed\r\n
+numComments=4

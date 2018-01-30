@@ -1,0 +1,18 @@
+/**
+ * This minilab will be showing the resylts of statistical analysis on the enrollment in courses 
+ * required for the CS major over the past 4 years.
+ * 
+ * @author Ioanna Deni 
+ * @version 24th April 2017
+ */
+public class Enrollment
+{   
+    /**
+     * This is instead of a begin method so for the program to print the statistical data 
+     * we will have to call this method.
+     */
+    public static void main (String[] args) {
+        System.out.println ("In main");
+        Enrollments enrollments = new Enrollments();
+    }
+}

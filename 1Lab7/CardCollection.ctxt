@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CardCollection
+comment0.text=\r\n\ The\ CardCollection\ class\ manages\ the\ entire\ collection\ of\ cards.\ \r\n\ It\ is\ very\ similar\ to\ the\ BalloonCollection\ class\ in\ the\ HotAirBallonCollection\ \r\n\ example\ that\ we\ did\ in\ class.\ This\ class\ keeps\ the\ entire\ collection\ of\ cards\ in\ an\ array.\r\n\ \r\n\ @author\ Ioanna\ Deni\r\n\ @version\ 4/25/2017\r\n
+comment1.params=size
+comment1.target=CardCollection(int)
+comment1.text=\r\n\ Constructor\ for\ CardCollection\ that\ creates\ an\ array\ \r\n\ \r\n\ @param\ int\ for\ the\ x\ direction\ \r\n\ @param\ int\ for\ the\ y\ direction\r\n\ @param\ a\ canvas\r\n
+comment2.params=card\ canvas
+comment2.target=void\ addCard(Card,\ objectdraw.DrawingCanvas)
+comment2.text=\r\n\ Create\ a\ cards\ and\ put\ it\ into\ the\ next\ slot\ of\ the\ array.\r\n\ Make\ sure\ there\ is\ enough\ space\ first.\r\n
+comment3.params=
+comment3.target=void\ reveal()
+comment3.text=\r\n\ This\ method\ goes\ over\ all\ cards\ and\ swapps\ them\ to\ reveal\ their\ leter.\r\n
+comment4.params=point
+comment4.target=Card\ getCardAt(objectdraw.Location)
+comment4.text=\r\n\ This\ method\ finds\ a\ card\ at\ a\ particular\ location\r\n
+comment5.params=symbol
+comment5.target=void\ removeCard(char)
+comment5.text=\r\n\ This\ method\ removes\ a\ particular\ card\ from\ the\ collection\ \r\n
+numComments=6
